@@ -1,0 +1,22 @@
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.form input {
+    margin: 20px 0;
+    border: 1px solid rgb(227, 227, 227);
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+.form input:focus{
+    outline: none;
+}
+
+.form button{
+    border: none;
+    width: 100%;
+    padding: 20px 40px;
+    border-radius: 10px;
+}
